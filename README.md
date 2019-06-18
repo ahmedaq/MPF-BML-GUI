@@ -16,14 +16,14 @@ MPF-BML-GUI is a standalone cross-platform package which features an easy-to-use
 
 ![alt text][MPF-BML-GUI]
 
-[RocaNetGUI]: https://github.com/ahmedaq/RocaNet/blob/master/E2_fig_3.png "MPF_BML_GUI"
+[MPF-BML-GUI]: https://github.com/ahmedaq/RocaNet/blob/master/E2_fig_3.png "MPF_BML_GUI"
 
 &nbsp;
 ## Details
 #### Title of paper
 MPF-BML: A standalone GUI-based package for maximum entropy model inference
 #### Authors
-<> Ahmed A. Quadeer, Matthew R. McKay, and Raymond H. Y. Louie
+<!-- Ahmed A. Quadeer, Matthew R. McKay, and Raymond H. Y. Louie -->
 
 &nbsp;
 ## Requirements
