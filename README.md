@@ -160,7 +160,7 @@ RocaNet application can be installed using one of the following methods on Linux
 &nbsp;
 ## Acknowledgement
 
-<> I would like to thank Neelkanth Kundu, Laureano Moreno Pozas, Muhammad Saqib Sohail, Syed Muhammad Umer Abdullah, Syed Faraz Ahmed, and Syed Awais Wahab Shah for providing useful comments/feedback and assisting in testing of RocaNet. 
+<!-- I would like to thank Neelkanth Kundu, Laureano Moreno Pozas, Muhammad Saqib Sohail, Syed Muhammad Umer Abdullah, Syed Faraz Ahmed, and Syed Awais Wahab Shah for providing useful comments/feedback and assisting in testing of RocaNet. -->
 
 &nbsp;
 ## Troubleshooting
