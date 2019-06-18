@@ -58,8 +58,10 @@ This will open the GUI of the MPF-BML-GUI software.
     * This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 2 – 3 minutes on a standard computer.
 
 2.	Open terminal and go to /Documents/MPF-BML-GUI/applications/ directory and type the following command
-./run_MPF_BML.sh /Applications/MATLAB/MATLAB_Runtime/v93/
-This will open the GUI of the MPF-BML-GUI software.
+    ```
+    ./run_MPF_BML.sh /Applications/MATLAB/MATLAB_Runtime/v93/
+    ```
+      This will open the GUI of the MPF-BML-GUI software.
 
 </details>
 
