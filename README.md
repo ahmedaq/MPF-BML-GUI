@@ -45,9 +45,11 @@ MPF-BML-GUI can be installed using one of the following methods on macOS:
 
 2.	Download this "MPF-BML-GUI" repository. A folder named " MPF-BML-GUI-master" will be made on your computer.
 
-3.	Open terminal and go to /MPF-BML-GUI-master/macos/ directory and type the following command
-./run_MPF_BML.sh /Applications/MATLAB/MATLAB_Runtime/v93/
-This will open the GUI of the MPF-BML-GUI software.
+3.	Open terminal and go to /MPF-BML-GUI-master/macos/ directory and type the following command:
+    ```
+    ./run_MPF_BML.sh /Applications/MATLAB/MATLAB_Runtime/v93/
+    ```
+      This will open the GUI of the MPF-BML-GUI software.
 
 
 #### Method 2: Using the MATLAB Runtime installer
@@ -57,7 +59,7 @@ This will open the GUI of the MPF-BML-GUI software.
     * Do not change the default installation folder ("Applications") of MATLAB runtime libraries.
     * This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 2 – 3 minutes on a standard computer.
 
-2.	Open terminal and go to /Documents/MPF-BML-GUI/applications/ directory and type the following command
+2.	Open terminal and go to /Documents/MPF-BML-GUI/applications/ directory and type the following command:
     ```
     ./run_MPF_BML.sh /Applications/MATLAB/MATLAB_Runtime/v93/
     ```
