@@ -37,25 +37,30 @@ A PC with either macOS, Microsoft Windows, or Linux.
   </summary>  
 &nbsp;
 
-RocaNet can be installed using one of the following methods on macOS:
+MPF-BML-GUI can be installed using one of the following methods on macOS:
 
 #### Method 1: Downloading MATLAB Runtime separately and running directly the RoCA app without any installation
 
-1. Download and install the Macintosh version of the MATLAB Runtime for R2017b from the following link on the MathWorks website http://ssd.mathworks.com/supportfiles/downloads/R2017b/deployment_files/R2017b/installers/maci64/MCR_R2017b_maci64_installer.dmg. This will install MATLAB Runtime at /Applications/MATLAB/MATLAB_Runtime. Note that the RoCA application will not work with any older or newer version of the MATLAB Runtime.
+1.	Download and install the Macintosh version of the MATLAB Runtime for R2017b from the following link on the MathWorks website http://ssd.mathworks.com/supportfiles/downloads/R2017b/deployment_files/R2017b/installers/maci64/MCR_R2017b_maci64_installer.dmg. This will install MATLAB Runtime at /Applications/MATLAB/MATLAB_Runtime. Note that the MPF_BML application will not work with any older or newer version of the MATLAB Runtime.
 
-2. Download this "RocaNet" repository. A folder named "RocaNet-master" will be made on your computer.
+2.	Download this "MPF-BML-GUI" repository. A folder named " MPF-BML-GUI-master" will be made on your computer.
 
-3. Go to /RocaNet-master/macos/ directory and run the RoCA app by double clicking “RocaNet” in this folder. This will open the GUI of the RoCA software.
+3.	Open terminal and go to /MPF-BML-GUI-master/macos/ directory and type the following command
+./run_MPF_BML.sh /Applications/MATLAB/MATLAB_Runtime/v93/
+This will open the GUI of the MPF-BML-GUI software.
 
 
 #### Method 2: Using the MATLAB Runtime installer
 
-1.	Download the installer "RocaNet_mcr" from http://bit.ly/rocanet_v1_mac (size: ~1 GB) and install the application by following the guidelines in the setup window as follows:
-      * Make sure to install RocaNet in any folder other than the “Applications” folder (e.g., you can create a new folder on your Desktop or in Documents folder). In this tutorial, we assume that you made a folder “RoCA_dir” in your “Documents folder”.
-      * Do not change the default installation folder ("Applications") of MATLAB runtime libraries. 
-      * This will install RoCA_gui as well as MATLAB runtime libraries (required to run the app). This procedure may take 2 – 3 minutes on a standard computer.
+1.	Download the installer " MPF_BML_mcr" from http://bit.ly/rocanet_v1_mac (size: ~1.5 GB) and install the application by following the guidelines in the setup window as follows:
+    * Make sure to install MPF-BML-GUI in any folder other than the “Applications” folder (e.g., you can create a new folder on your Desktop or in Documents folder). In this tutorial, we assume that you made a folder “MPF-BML-GUI” in your “Documents folder”. 
+    * Do not change the default installation folder ("Applications") of MATLAB runtime libraries.
+    * This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 2 – 3 minutes on a standard computer.
 
-2.	Run the installed app by double clicking “RocaNet” located in your newly created folder (/Documents/RoCA_dir/application/). This will open the GUI of the RocaNet software.
+2.	Open terminal and go to /Documents/MPF-BML-GUI/applications/ directory and type the following command
+./run_MPF_BML.sh /Applications/MATLAB/MATLAB_Runtime/v93/
+This will open the GUI of the MPF-BML-GUI software.
+
 </details>
 
 <details>
