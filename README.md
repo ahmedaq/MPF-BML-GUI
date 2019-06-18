@@ -22,8 +22,8 @@ MPF-BML-GUI is a standalone cross-platform package which features an easy-to-use
 ## Details
 #### Title of paper
 MPF-BML: A standalone GUI-based package for maximum entropy model inference
-#### Authors
-<!-- Ahmed A. Quadeer, Matthew R. McKay, and Raymond H. Y. Louie -->
+<!-- #### Authors
+Ahmed A. Quadeer, Matthew R. McKay, and Raymond H. Y. Louie -->
 
 &nbsp;
 ## Requirements
