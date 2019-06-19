@@ -35,6 +35,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
   <summary>
     <b> macOS </b>
   </summary>  
+
 <!-- 
 MPF-BML-GUI can be installed using one of the following methods on macOS:
 
