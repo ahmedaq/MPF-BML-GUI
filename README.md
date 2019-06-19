@@ -7,8 +7,8 @@
 *  [Requirements](#requirements)
 *  [Installation](#installation)
 *  [Usage](#usage)
-<!-- *  [Acknowledgement](#acknowledgement) -->
 *  [Troubleshooting](#troubleshooting)
+<!-- *  [Acknowledgement](#acknowledgement) -->
 
 &nbsp;
 ## Overview
