@@ -125,9 +125,9 @@ RocaNet application can be installed using one of the following methods on Linux
       ```
       where “UserName” is the name of the directory in which the Documents folder is located. This will open the GUI of the RocaNet software.
 </details>
+
 -->
 
-&nbsp;
 ## Usage
 
 1.	To infer maximum entropy model parameters using MPF-BML, you need to simply provide 
