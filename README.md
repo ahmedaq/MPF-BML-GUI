@@ -7,7 +7,7 @@
 *  [Requirements](#requirements)
 *  [Installation](#installation)
 *  [Usage](#usage)
-*  [Acknowledgement](#acknowledgement)
+<!-- *  [Acknowledgement](#acknowledgement) -->
 *  [Troubleshooting](#troubleshooting)
 
 &nbsp;
@@ -37,9 +37,9 @@ A PC with either macOS, Microsoft Windows, or Linux.
   </summary>  
 &nbsp;
 
-MPF-BML-GUI can be installed using one of the following methods on macOS:
+<!-- MPF-BML-GUI can be installed using one of the following methods on macOS:
 
-<!-- #### Method 1: Downloading MATLAB Runtime separately and running directly the RoCA app without any installation
+#### Method 1: Downloading MATLAB Runtime separately and running directly the RoCA app without any installation
 
 1.	Download and install the Macintosh version of the MATLAB Runtime for R2017b from the following link on the MathWorks website http://ssd.mathworks.com/supportfiles/downloads/R2017b/deployment_files/R2017b/installers/maci64/MCR_R2017b_maci64_installer.dmg. This will install MATLAB Runtime at /Applications/MATLAB/MATLAB_Runtime. Note that the MPF_BML application will not work with any older or newer version of the MATLAB Runtime.
 
@@ -50,9 +50,10 @@ MPF-BML-GUI can be installed using one of the following methods on macOS:
     ./run_MPF_BML.sh /Applications/MATLAB/MATLAB_Runtime/v93/
     ```
       This will open the GUI of the MPF-BML-GUI software.
--->
+
 
 #### Method 2: Using the MATLAB Runtime installer
+-->
 
 1.	Download the installer " MPF_BML_mcr" from http://bit.ly/MPF_BML_v1_macOS_install (size: ~1.5 GB) and install the application by following the guidelines in the setup window as follows:
     * Make sure to install MPF-BML-GUI in any folder other than the “Applications” folder (e.g., you can create a new folder on your Desktop or in Documents folder). In this tutorial, we assume that you made a folder “MPF-BML-GUI” in your “Documents folder”. 
@@ -167,9 +168,11 @@ RocaNet application can be installed using one of the following methods on Linux
 4. Vector graphics (eps format) of all results are also saved in the same directory for generating publication-quality figures.
 
 &nbsp;
+<!-- 
 ## Acknowledgement
 
-<!-- I would like to thank Neelkanth Kundu, Laureano Moreno Pozas, Muhammad Saqib Sohail, Syed Muhammad Umer Abdullah, Syed Faraz Ahmed, and Syed Awais Wahab Shah for providing useful comments/feedback and assisting in testing of RocaNet. -->
+I would like to thank Neelkanth Kundu, Laureano Moreno Pozas, Muhammad Saqib Sohail, Syed Muhammad Umer Abdullah, Syed Faraz Ahmed, and Syed Awais Wahab Shah for providing useful comments/feedback and assisting in testing of RocaNet.
+-->
 
 &nbsp;
 ## Troubleshooting
