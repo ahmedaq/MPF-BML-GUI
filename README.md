@@ -43,7 +43,7 @@ MPF-BML-GUI can be installed using one of the following methods on macOS:
 
 1.	Download and install the Macintosh version of the MATLAB Runtime for R2017b from the following link on the MathWorks website http://ssd.mathworks.com/supportfiles/downloads/R2017b/deployment_files/R2017b/installers/maci64/MCR_R2017b_maci64_installer.dmg. This will install MATLAB Runtime at /Applications/MATLAB/MATLAB_Runtime. Note that the MPF_BML application will not work with any older or newer version of the MATLAB Runtime.
 
-2.	Download this "MPF-BML-GUI" repository. A folder named " MPF-BML-GUI-master" will be made on your computer.
+2.	Download the "MPF-BML-GUI" application from http://bit.ly/MPF_BML_v1_macOS_noInstall. A folder named " MPF-BML-GUI-master" will be made on your computer.
 
 3.	Open terminal and go to /MPF-BML-GUI-master/macos/ directory and type the following command:
     ```
@@ -54,7 +54,7 @@ MPF-BML-GUI can be installed using one of the following methods on macOS:
 
 #### Method 2: Using the MATLAB Runtime installer
 
-1.	Download the installer " MPF_BML_mcr" from http://bit.ly/rocanet_v1_mac (size: ~1.5 GB) and install the application by following the guidelines in the setup window as follows:
+1.	Download the installer " MPF_BML_mcr" from http://bit.ly/MPF_BML_v1_macOS_install (size: ~1.5 GB) and install the application by following the guidelines in the setup window as follows:
     * Make sure to install MPF-BML-GUI in any folder other than the “Applications” folder (e.g., you can create a new folder on your Desktop or in Documents folder). In this tutorial, we assume that you made a folder “MPF-BML-GUI” in your “Documents folder”. 
     * Do not change the default installation folder ("Applications") of MATLAB runtime libraries.
     * This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 2 – 3 minutes on a standard computer.
