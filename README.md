@@ -131,20 +131,13 @@ RocaNet application can be installed using one of the following methods on Linux
 ## Usage
 
 1.	To infer maximum entropy model parameters using MPF-BML, you need to simply provide 
-      * Multiple sequence alignment (MSA) of the protein in fasta format [mandatory input]; 
-      * A list of known protein biochemical domains in csv/xls format [optional]. If provided, the software computes and displays the association of inferred sectors with the specified biochemical domains. The numbering of the residues in each biochemical domain should match the numbering used in the MSA. For formatting this data properly, see the example files provided in the Data_RoCA folder in this repository.
-      * The number of leading principal components (PCs) to use in the infer-ence of co-evolutionary networks [default: 2];
+      * Input data in FASTA/Excel format comprising either multiple sequence alignment of the protein or a categorical data (with rows and columns representing samples and variables, respectively) [mandatory input]; 
+      * Input file in Excel format for providing different weights to samples in order to reduce any sampling bias (each sample is given the same weight if no data is provided) [optional input];
+      * Input file comprising maximum entropy model parameters for initializing the method (see Supplementary Text S1).
 
+2.	For testing purposes, you can use the data provided in the Datasets folder in this repository. IMPORTANT: The data to be analyzed must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/.
 
-2.	For testing purposes, you can use the data provided in the Data_RoCA folder in this repository.
-
-3.	RoCA saves the following output files in either csv or xls format (as specified by the user; [default: csv]):
-      * Sample PCs used in the inference procedure (xyz_SamplePCs.format, where “xyz” is the name of the fasta file provided as an input and “format” is either csv or xls depending on the option selected in the GUI.)
-      * All eigenvalues of the sample correlation matrix (xyz_Eigenvalues.format)
-      * RoCA estimated PCs (xyz_RocaPCs.format)
-      * RoCA sectors (xyz_RoCASecs.format)
-
-    Note that the above-mentioned output files are saved by default in the same directory in which the input fasta file is located.
+3.	The inferred maximum entropy parameters using MPF and  MPF-BML are saved in Excel format (see Supplementary Table 2), and the MCMC samples generated based on the inferred MPF-BML model (used in model verification) are also saved in a separate Excel file.
     
 4. Vector graphics (eps format) of all results are also saved in the same directory for generating publication-quality figures.
 
