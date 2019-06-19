@@ -39,7 +39,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
 
 MPF-BML-GUI can be installed using one of the following methods on macOS:
 
-#### Method 1: Downloading MATLAB Runtime separately and running directly the RoCA app without any installation
+<!-- #### Method 1: Downloading MATLAB Runtime separately and running directly the RoCA app without any installation
 
 1.	Download and install the Macintosh version of the MATLAB Runtime for R2017b from the following link on the MathWorks website http://ssd.mathworks.com/supportfiles/downloads/R2017b/deployment_files/R2017b/installers/maci64/MCR_R2017b_maci64_installer.dmg. This will install MATLAB Runtime at /Applications/MATLAB/MATLAB_Runtime. Note that the MPF_BML application will not work with any older or newer version of the MATLAB Runtime.
 
@@ -50,7 +50,7 @@ MPF-BML-GUI can be installed using one of the following methods on macOS:
     ./run_MPF_BML.sh /Applications/MATLAB/MATLAB_Runtime/v93/
     ```
       This will open the GUI of the MPF-BML-GUI software.
-
+-->
 
 #### Method 2: Using the MATLAB Runtime installer
 
