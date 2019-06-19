@@ -36,8 +36,6 @@ A PC with either macOS, Microsoft Windows, or Linux.
     <b> macOS </b>
   </summary>  
 <!-- 
-&nbsp;
-
 MPF-BML-GUI can be installed using one of the following methods on macOS:
 
 #### Method 1: Downloading MATLAB Runtime separately and running directly the RoCA app without any installation
