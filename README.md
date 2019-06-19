@@ -137,7 +137,7 @@ RocaNet application can be installed using one of the following methods on Linux
 
 2.	For testing purposes, you can use the data provided in the Datasets folder in this repository. 
 
-    <b> IMPORTANT: </b> The data to be analyzed must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/.
+    <b> IMPORTANT: The data to be analyzed must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/. </b> 
 
 3.	The inferred maximum entropy parameters using MPF and  MPF-BML are saved in Excel format (see Supplementary Table 2), and the MCMC samples generated based on the inferred MPF-BML model (used in model verification) are also saved in a separate Excel file.
     
