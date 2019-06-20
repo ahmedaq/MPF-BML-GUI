@@ -60,6 +60,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
     <b> Linux </b>
   </summary>  
 </details>
+&nbsp;
 
 ## Usage
 
