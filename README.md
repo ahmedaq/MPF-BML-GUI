@@ -104,7 +104,6 @@ A PC with either macOS, Microsoft Windows, or Linux.
     
 4. Vector graphics (eps format) of all results are also saved in the same directory for generating publication-quality figures.
 
-&nbsp;
 <!-- 
 ## Acknowledgement
 
@@ -113,4 +112,13 @@ I would like to thank Neelkanth Kundu, Laureano Moreno Pozas, Muhammad Saqib Soh
 
 &nbsp;
 ## Troubleshooting
+
+### Issues with macOS version
+1. Due to the known problem of writing xls/xlsx files in macOS version of MATLAB, "xlwrite" function was used to write the output files. The function "xlwrite" works for data with small dimensions; however, for large-dimensional datasets, the output maximum entropy model parameters are saved in a csv file and the (row/column) labels of the matrix are saved separately in a xls file named "matrixlabels".
+
+### Issues with Linux version
+
+
+
+
 For any questions or comments, please email at ahmedaq@gmail.com. 
