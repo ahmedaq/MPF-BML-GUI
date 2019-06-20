@@ -61,7 +61,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
   </summary>  
 
 1.	Install the MPF-BML-GUI application as follows:
-      * Download the installer "MPF_BML_mcr.install" from http://bit.ly/MPF_BML_v1_linux (size: ~1 GB) to a directory on your computer. Here onwards, we assume that you download it in the "Documents" folder.
+      * Download the installer "MPF_BML_mcr.install" from http://bit.ly/MPF_BML_v1_linux (size: ~1.8 GB) to a directory on your computer. Here onwards, we assume that you download it in the "Documents" folder.
       * Open terminal and go to the "Documents" folder and type the following command (admin password on user's computer required): 
       ```
       sudo chmod +x MPF_BML_mcr.install
