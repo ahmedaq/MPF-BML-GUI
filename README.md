@@ -59,6 +59,24 @@ A PC with either macOS, Microsoft Windows, or Linux.
   <summary>
     <b> Linux </b>
   </summary>  
+
+1.	Install the MPF-BML-GUI application as follows:
+      * Download the installer "MPF_BML_mcr.install" from http://bit.ly/MPF_BML_v1_linux (size: ~1 GB) to a directory on your computer. Here onwards, we assume that you download it in the "Documents" folder.
+      * Open terminal and go to the "Documents" folder and type the following command (admin password on user's computer required): 
+      ```
+      sudo chmod +x MPF_BML_mcr.install
+      ```
+      * Go to the "Documents" folder, double click on the installer file “MPF_BML_mcr.install”, and follow the guidelines in the setup window.
+      * Please make sure to install MPF-BML-GUI in any folder other than the system folders (e.g., you can create a new folder on your Desktop or in Documents folder). In this tutorial, we assume that you made a folder “MPF-BML-GUI” in your “Documents folder”.
+      * Install MATLAB Runtime in the directory /Documents/MATLAB_Runtime/.
+      * This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 2 – 3 minutes on a standard computer.
+
+2.	To run the application, open terminal and go to the directory /Documents/MPF-BML-GUI/application/ and type the following command (admin password on user's computer required): 
+      ```
+      sudo ./run_MPF_BML.sh /home/UserName/Documents/MATLAB_Runtime/v94/
+      ```
+      where “UserName” is the name of the directory in which the Documents folder is located. This will open the GUI of the MPF-BML-GUI software.
+  
 </details>
 &nbsp;
 
