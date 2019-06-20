@@ -113,12 +113,9 @@ I would like to thank Neelkanth Kundu, Laureano Moreno Pozas, Muhammad Saqib Soh
 &nbsp;
 ## Troubleshooting
 
-#### Issues with macOS version
-1. Due to the known problem of writing xls/xlsx files in macOS version of MATLAB, "xlwrite" function was used to write the output files. The function "xlwrite" works for data with small dimensions; however, for large-dimensional datasets, the output maximum entropy model parameters are saved in a csv file and the (row/column) labels of the matrix are saved separately in a xls file named "matrixlabels".
+1. Due to the known issue in writing xls/xlsx files in macOS and Linux versions of MATLAB, "xlwrite" function (https://www.mathworks.com/matlabcentral/fileexchange/38591-xlwrite-generate-xls-x-files-without-excel-on-mac-linux-win) was used to write the output files. The function "xlwrite" works for data with small dimensions; however, for large-dimensional datasets, the inferred maximum entropy model parameters are saved in a numeric csv file while the (row/column) labels of the matrix are saved separately in a xls file named "matrixlabels".
 
-#### Issues with Linux version
-
+2. In macOS version only, the MCMC samples generated based on the inferred MPF-BML model (used in model verification) are not currently being saved. We are in the process of debugging this issue and a modified macOS package (v2) will be uploaded after that.
 
 
-
-For any questions or comments, please email at ahmedaq@gmail.com. 
+For any further questions or comments, please email at ahmedaq@gmail.com. 
