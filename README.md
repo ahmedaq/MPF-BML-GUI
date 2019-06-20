@@ -82,7 +82,6 @@ A PC with either macOS, Microsoft Windows, or Linux.
       where “UserName” is the name of the directory in which the Documents folder is located. This will open the GUI of the MPF-BML-GUI software.
   
 </details>
-&nbsp;
 
 ## Usage
 
