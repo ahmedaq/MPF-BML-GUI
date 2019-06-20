@@ -36,7 +36,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
     <b> macOS </b>
   </summary> 
   
-1.	Download the installer "MPF_BML_mcr.zip" from http://bit.ly/MPF_BML_mcr_macOS (size: ~1.5 GB), make sure it is a ".zip" file (if not, remove the extension and make it .zip), unzip it, and install the application by following the guidelines in the setup window as follows:
+1.	Download the installer "MPF_BML_mcr.zip" from http://bit.ly/MPF_BML_v1_macOS (size: ~1.5 GB), make sure it is a ".zip" file (if not, remove the extension and make it .zip), unzip it, and install the application by following the guidelines in the setup window as follows:
     * Make sure to install MPF-BML-GUI in any folder other than the “Applications” folder (e.g., you can create a new folder on your Desktop or in Documents folder). In this tutorial, we assume that you made a folder “MPF-BML-GUI” in your “Documents folder”. 
     * Do not change the default installation folder ("Applications") of MATLAB runtime libraries.
     * This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 2 – 3 minutes on a standard computer.
