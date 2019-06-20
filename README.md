@@ -1,6 +1,5 @@
 # MPF-BML-GUI
 
-&nbsp;
 ## Table of Contents
 *  [Overview](#overview)
 *  [Details](#details)
@@ -10,7 +9,6 @@
 *  [Troubleshooting](#troubleshooting)
 <!-- *  [Acknowledgement](#acknowledgement) -->
 
-&nbsp;
 ## Overview
 MPF-BML-GUI is a standalone cross-platform package which features an easy-to-use GUI. The package only requires the input data (protein sequence data or data of multiple configura-tions of a complex system with large number of variables) and returns the maximum entropy model parameters inferred using the MPF-BML method. 
 
@@ -18,18 +16,15 @@ MPF-BML-GUI is a standalone cross-platform package which features an easy-to-use
 
 [MPFBMLGUI]: https://github.com/ahmedaq/MPF-BML-GUI/blob/master/E2_fig_3.png "MPF_BML_GUI"
 
-&nbsp;
 ## Details
 #### Title of paper
 MPF-BML: A standalone GUI-based package for maximum entropy model inference
 <!-- #### Authors
 Ahmed A. Quadeer, Matthew R. McKay, and Raymond H. Y. Louie -->
 
-&nbsp;
 ## Requirements
 A PC with either macOS, Microsoft Windows, or Linux.
 
-&nbsp;
 ## Installation
 <details>
   <summary>
@@ -110,7 +105,6 @@ A PC with either macOS, Microsoft Windows, or Linux.
 I would like to thank Neelkanth Kundu, Laureano Moreno Pozas, Muhammad Saqib Sohail, Syed Muhammad Umer Abdullah, Syed Faraz Ahmed, and Syed Awais Wahab Shah for providing useful comments/feedback and assisting in testing of RocaNet.
 -->
 
-&nbsp;
 ## Troubleshooting
 
 1. Due to the known issue in writing xls/xlsx files in macOS and Linux versions of MATLAB, "xlwrite" function (https://www.mathworks.com/matlabcentral/fileexchange/38591-xlwrite-generate-xls-x-files-without-excel-on-mac-linux-win) was used to write the output files. The function "xlwrite" works for data with small dimensions; however, for large-dimensional datasets, the inferred maximum entropy model parameters are saved in a numeric csv file while the (row/column) labels of the matrix are saved separately in a xls file named "matrixlabels".
