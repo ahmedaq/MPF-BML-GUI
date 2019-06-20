@@ -6,7 +6,6 @@
 *  [Details](#details)
 *  [Requirements](#requirements)
 *  [Installation](#installation)
-    * [macOS](#macOS)
 *  [Usage](#usage)
 *  [Troubleshooting](#troubleshooting)
 <!-- *  [Acknowledgement](#acknowledgement) -->
