@@ -49,7 +49,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
     <b> Windows </b>
   </summary>
   
-1.	Download the installer "MPF_BML_mcr" from http://bit.ly/MPF_BML_v1_win (size: ~1 GB) and install the application by following the guidelines in the setup window as follows:
+1.	Download the installer "MPF_BML_mcr" from http://bit.ly/MPF_BML_v1_Win (size: ~1 GB) and install the application by following the guidelines in the setup window as follows:
       * Make sure to install RocaNet in any folder other than the “Program Files” folder (e.g., you can create a new folder on your Desktop or in Documents folder). In this tutorial, we assume that you made a folder “MPF_BML_GUI” in your “Documents folder”.
       * Do not change the default installation folder (“Program Files”) of MATLAB runtime libraries. 
       * This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 2 – 3 minutes on a standard computer.
@@ -65,7 +65,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
   </summary>  
 
 1.	Install the MPF-BML-GUI application as follows:
-      * Download the installer "MPF_BML_mcr.install" from http://bit.ly/MPF_BML_v1_linux (size: ~1.8 GB) to a directory on your computer. Here onwards, we assume that you download it in the "Documents" folder.
+      * Download the installer "MPF_BML_mcr.install" from http://bit.ly/MPF_BML_v1_Linux (size: ~1.8 GB) to a directory on your computer. Here onwards, we assume that you download it in the "Documents" folder.
       * Open terminal and go to the "Documents" folder and type the following command (admin password on user's computer required): 
       ```
       sudo chmod +x MPF_BML_mcr.install
