@@ -1,4 +1,4 @@
-# MPF-BML-GUI
+# MPF-BML: A standalone GUI-based cross-platform package for maximum entropy model inference
 
 ## Table of Contents
 *  [Overview](#overview)
@@ -96,9 +96,13 @@ To infer maximum entropy model parameters using MPF-BML, you need to simply prov
 * Input file in Excel format for providing different weights to samples in order to reduce any sampling bias (each sample is given the same weight if no data is provided) [optional input];
 * Input file comprising maximum entropy model parameters for initializing the method (see Supplementary Text S1) [optional input].
 
-Different datasets are provided in the "Datasets" folder in this repository for testing the MPF-BML GUI framework. For demonstration purposes, we will focus here on the data of HIV p7 nucleocapsid protein "p7-alignment.fasta" present in this folder. Click the "Load data" button and select this dataset and leave the remaining optional inputs (see above) blank.
+Different datasets are provided in the "Datasets" folder in this repository for testing the MPF-BML GUI framework. For demonstration purposes, we will focus here on the data of HIV p7 nucleocapsid protein "p7-alignment.fasta" present in this folder. Click the "Load data" button and select this dataset and leave the remaining optional inputs blank as shown below.
 
 **IMPORTANT**: The data to be analyzed (e.g. the file "p7-alignment.fasta" in this example) must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/. 
+
+![alt text][InputPanel]
+
+[InputPanel]: https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Input_panel.png "Input panel"
 
 ### Setting the parameters
 In the "Parameters" panel of MPF-BML GUI, the user can set values of the different parameters involved in the three steps of the MPF-BML method (see (Louie et al., 2018) and Supplementary Text S2 for details of these parameters). A brief description of all parameters is also provided as tooltip to assist the user. The default values of these parameters, which were found to return a reasonable model for the majority of the test data, are already set. 
