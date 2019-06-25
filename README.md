@@ -9,7 +9,7 @@
    - [Input data](#input-data)
    - [Setting the parameters](#setting-the-parameters)
    - [Running the MPF-BML method](#running-the-mpf-bml-method)
-   - [Inferred model verification](#inferred-model-verification)
+   - [Model verification](#model-verification)
    - [Saved output data](#saved-output-data)
 *  [Troubleshooting](#troubleshooting)
 <!-- *  [Acknowledgement](#acknowledgement) -->
@@ -91,14 +91,14 @@ A PC with either macOS, Microsoft Windows, or Linux.
 ## Running the application
 
 ### Input data
-1.	To infer maximum entropy model parameters using MPF-BML, you need to simply provide 
-      * Input data in FASTA/Excel format comprising either multiple sequence alignment of the protein or a categorical data (with rows and columns representing samples and variables, respectively) [mandatory input]; 
-      * Input file in Excel format for providing different weights to samples in order to reduce any sampling bias (each sample is given the same weight if no data is provided) [optional input];
-      * Input file comprising maximum entropy model parameters for initializing the method (see Supplementary Text S1) [optional input].
+To infer maximum entropy model parameters using MPF-BML, you need to simply provide 
+* Input data in FASTA/Excel format comprising either multiple sequence alignment of the protein or a categorical data (with rows and columns representing samples and variables, respectively) [mandatory input]; 
+* Input file in Excel format for providing different weights to samples in order to reduce any sampling bias (each sample is given the same weight if no data is provided) [optional input];
+* Input file comprising maximum entropy model parameters for initializing the method (see Supplementary Text S1) [optional input].
 
-2.	For testing purposes, you can use the data provided in the "Datasets" folder in this repository. For demonstration purposes, we will focus on the data of HIV p7 nucleocapsid protein "p7-alignment.fasta" present in the "Datasets" folder.
+For testing purposes, you can use the data provided in the "Datasets" folder in this repository. For demonstration purposes, we will focus on the data of HIV p7 nucleocapsid protein "p7-alignment.fasta" present in the "Datasets" folder.
 
-    **IMPORTANT**: The data to be analyzed (e.g. the file "p7-alignment.fasta" in this example) must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/. 
+**IMPORTANT**: The data to be analyzed (e.g. the file "p7-alignment.fasta" in this example) must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/. 
 
 ### Setting the parameters
 In the "Parameters" panel of MPF-BML GUI, the user can set values of the different parameters involved in the three steps of the MPF-BML method (see (Louie et al., 2018) and Supplementary Text S2 for details of these parameters). A brief description of all parameters is also provided as tooltip to assist the user. The default values of these parameters, which were found to return a reasonable model for the majority of the test data, are already set. 
@@ -110,18 +110,19 @@ After providing input data and setting the parameters, the user can run the meth
 
 For the example dataset of HIV p7, the MPF-BML model would take around 10-20 minutes (on a standard computer with 1 processing core).
 
-### Inferred model verification
+### Model verification
 In the "Model verification" panel of MPF-BML GUI, the inferred models (MPF-only and MPF-BML) are validated by comparing the following statistical quantities of configurations in the data with those obtained from the inferred model:
-1. the individual frequencies (*p*<sub>i</sub>), 
-2. the pair-wise frequencies (*p*<sub>ij</sub>), 
-3. the connected correlations (*p*<sub>ij</sub> - *p*<sub>i</sub>*p*<sub>j</sub>), and
-4. the probability *P*(k) of observing a configuration with k differences with the consensus configuration.
+* the individual frequencies (*p*<sub>i</sub>), 
+* the pair-wise frequencies (*p*<sub>ij</sub>), 
+* the connected correlations (*p*<sub>ij</sub> - *p*<sub>i</sub>*p*<sub>j</sub>), and
+* the probability *P*(k) of observing a configuration with k differences with the consensus configuration.
 
 ### Saved output data
 
-1.	The inferred maximum entropy parameters using MPF and  MPF-BML are saved in csv and xls format (see Supplementary Table 2), and the MCMC samples generated based on the inferred MPF-BML model (used in model verification) are also saved in a separate csv and xls file.
+* The inferred maximum entropy parameters using MPF and  MPF-BML are saved in csv and xls format (see Supplementary Table 2).
+* The MCMC samples generated based on the inferred MPF-BML model (used in model verification) are also saved in a separate csv and xls file.
     
-2. Vector graphics (eps format) of all model-verification results are also saved in the same directory for generating publication-quality figures.
+* Vector graphics (eps format) of all model-verification results are also saved in the same directory for generating publication-quality figures.
 
 <!-- 
 ## Acknowledgement
