@@ -100,9 +100,7 @@ Different datasets are provided in the "Datasets" folder in this repository for 
 
 **IMPORTANT**: The data to be analyzed (e.g. the file "p7-alignment.fasta" in this example) must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/. 
 
-![alt text][InputPanel]
-
-[InputPanel]: https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Input_panel.png "Input panel"
+![InputPanel](https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Input_panel.png | width =10) "Input panel"
 
 ### Setting the parameters
 In the "Parameters" panel of MPF-BML GUI, the user can set values of the different parameters involved in the three steps of the MPF-BML method (see (Louie et al., 2018) and Supplementary Text S2 for details of these parameters). A brief description of all parameters is also provided as tooltip to assist the user. The default values of these parameters, which were found to return a reasonable model for the majority of the test data, are already set. 
