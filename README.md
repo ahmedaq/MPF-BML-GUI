@@ -18,7 +18,6 @@
 MPF-BML-GUI is a standalone cross-platform package which features an easy-to-use GUI. The package only requires the input data (protein sequence data or data of multiple configura-tions of a complex system with large number of variables) and returns the maximum entropy model parameters inferred using the MPF-BML method. 
 
 ![alt text][MPFBMLGUI]
-
 [MPFBMLGUI]: https://github.com/ahmedaq/MPF-BML-GUI/blob/master/E2_fig_3.png "MPF_BML_GUI"
 
 ## Details
@@ -100,7 +99,7 @@ Different datasets are provided in the "Datasets" folder in this repository for 
 
 **IMPORTANT**: The data to be analyzed (e.g. the file "p7-alignment.fasta" in this example) must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/. 
 
-![InputPanel](https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Input_panel.png | width =10) "Input panel"
+<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Input_panel.png" width="300">
 
 ### Setting the parameters
 In the "Parameters" panel of MPF-BML GUI, the user can set values of the different parameters involved in the three steps of the MPF-BML method (see (Louie et al., 2018) and Supplementary Text S2 for details of these parameters). A brief description of all parameters is also provided as tooltip to assist the user. The default values of these parameters, which were found to return a reasonable model for the majority of the test data, are already set. 
