@@ -110,11 +110,15 @@ For the example dataset of HIV p7, we will only change the value of the BML para
 <img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Parameters_panel.png" width="300">
 
 ### Running the MPF-BML method
-After providing input data and setting the parameters, the user can run the method by clicking on the “Run MPF-BML” button in the MPF-BML GUI. A “Stop” button is also provided to the user to stop execution in case the algorithm is not converging. Progress of the execution process is displayed in the “Processing information” panel of MPF-BML GUI. 
-
-For the example dataset of HIV p7, the MPF-BML model would take around 10-20 minutes (on a standard computer with 1 processing core).
+After providing input data and setting the parameters, the user can run the method by clicking on the “Run MPF-BML” button in the MPF-BML GUI as shown below. A “Stop” button is also provided to the user to stop execution in case the algorithm is not converging.
 
 <img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Run_panel.png" width="300">
+
+Progress of the execution process is displayed in the “Processing information” panel of MPF-BML GUI as shown below. 
+
+<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Processing_panel.png" width="400">
+
+For the example dataset of HIV p7, the MPF-BML model would take around 10-20 minutes (on a standard computer with 1 processing core).
 
 ### Model verification
 In the "Model verification" panel of MPF-BML GUI, the inferred models (MPF-only and MPF-BML) are validated by comparing the following statistical quantities of configurations in the data with those obtained from the inferred model:
