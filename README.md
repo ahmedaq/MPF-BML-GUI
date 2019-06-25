@@ -96,7 +96,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
       * Input file in Excel format for providing different weights to samples in order to reduce any sampling bias (each sample is given the same weight if no data is provided) [optional input];
       * Input file comprising maximum entropy model parameters for initializing the method (see Supplementary Text S1) [optional input].
 
-2.	For testing purposes, you can use the data provided in the Datasets folder in this repository. 
+2.	For testing purposes, you can use the data provided in the Datasets folder in this repository. For demonstration purposes, we will use the data of HIV p7 nucleocapsid protein "p7-alignment.fasta".
 
     **IMPORTANT**: The data to be analyzed must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/. 
 
