@@ -96,7 +96,7 @@ To infer maximum entropy model parameters using MPF-BML, you need to simply prov
 * Input file in Excel format for providing different weights to samples in order to reduce any sampling bias (each sample is given the same weight if no data is provided) [optional input];
 * Input file comprising maximum entropy model parameters for initializing the method (see Supplementary Text S1) [optional input].
 
-For testing purposes, you can use the data provided in the "Datasets" folder in this repository. For demonstration purposes, we will focus on the data of HIV p7 nucleocapsid protein "p7-alignment.fasta" present in the "Datasets" folder.
+Different datasets are provided in the "Datasets" folder in this repository for testing the MPF-BML GUI framework. For demonstration purposes, we will focus here on the data of HIV p7 nucleocapsid protein "p7-alignment.fasta" present in this folder. Click the "Load data" button and select this dataset and leave the remaining optional inputs (see above) blank.
 
 **IMPORTANT**: The data to be analyzed (e.g. the file "p7-alignment.fasta" in this example) must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/. 
 
