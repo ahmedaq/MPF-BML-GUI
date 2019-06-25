@@ -6,6 +6,11 @@
 *  [Requirements](#requirements)
 *  [Installation](#installation)
 *  [Running the application](#running-the-application)
+   - [Input data](#input-data)
+   - [Setting the parameters](#setting-the-parameters)
+   - [Running the MPF-BML method](#running-the-mpf-bml-method)
+   - [Inferred model verification](#inferred-model-verification)
+   - [Saved output data](#saved-output-data)
 *  [Troubleshooting](#troubleshooting)
 <!-- *  [Acknowledgement](#acknowledgement) -->
 
@@ -85,6 +90,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
 
 ## Running the application
 
+### Input data
 1.	To infer maximum entropy model parameters using MPF-BML, you need to simply provide 
       * Input data in FASTA/Excel format comprising either multiple sequence alignment of the protein or a categorical data (with rows and columns representing samples and variables, respectively) [mandatory input]; 
       * Input file in Excel format for providing different weights to samples in order to reduce any sampling bias (each sample is given the same weight if no data is provided) [optional input];
@@ -93,6 +99,11 @@ A PC with either macOS, Microsoft Windows, or Linux.
 2.	For testing purposes, you can use the data provided in the Datasets folder in this repository. 
 
     **IMPORTANT**: The data to be analyzed must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/. 
+
+### Setting the parameters
+### Running the MPF-BML method
+### Inferred model verification
+### Saved output data
 
 3.	The inferred maximum entropy parameters using MPF and  MPF-BML are saved in Excel format (see Supplementary Table 2), and the MCMC samples generated based on the inferred MPF-BML model (used in model verification) are also saved in a separate Excel file.
     
