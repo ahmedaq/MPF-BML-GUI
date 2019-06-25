@@ -107,10 +107,14 @@ In the "Parameters" panel of MPF-BML GUI, the user can set values of the differe
 
 For the example dataset of HIV p7, we will only change the value of the BML parameter "Max eps" from 1.0 (default) to 1.5. This change enables the user to obtain a reasonable maximum entropy model in 10-20 minutes (on a standard computer with 1 processing core).
 
+<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Parameters_panel.png" width="300">
+
 ### Running the MPF-BML method
 After providing input data and setting the parameters, the user can run the method by clicking on the “Run MPF-BML” button in the MPF-BML GUI. A “Stop” button is also provided to the user to stop execution in case the algorithm is not converging. Progress of the execution process is displayed in the “Processing information” panel of MPF-BML GUI. 
 
 For the example dataset of HIV p7, the MPF-BML model would take around 10-20 minutes (on a standard computer with 1 processing core).
+
+<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Run_panel.png" width="300">
 
 ### Model verification
 In the "Model verification" panel of MPF-BML GUI, the inferred models (MPF-only and MPF-BML) are validated by comparing the following statistical quantities of configurations in the data with those obtained from the inferred model:
@@ -119,9 +123,14 @@ In the "Model verification" panel of MPF-BML GUI, the inferred models (MPF-only 
 * the connected correlations (*p*<sub>ij</sub> - *p*<sub>i</sub>*p*<sub>j</sub>), and
 * the probability *P*(k) of observing a configuration with k differences with the consensus configuration.
 
+<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Model_ver_panel.png" width="600">
+
 ### Saved output data
 
-* The inferred maximum entropy parameters using MPF and  MPF-BML are saved in csv and xls format (see Supplementary Table 2).
+* The inferred maximum entropy parameters using MPF and  MPF-BML are saved in a matrix form in xls format (shown below). The first row and column show the change of configuration at a position with A/1/B denoting a change from configuration A to configuration B at position 1. The diagonal entries of the matrix represent the inferred fields while the non-diagonal entries represent the inferred couplings. 
+
+<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Output_parameters.png">
+
 * The MCMC samples generated based on the inferred MPF-BML model (used in model verification) are also saved in a separate csv and xls file.
     
 * Vector graphics (eps format) of all model-verification results are also saved in the same directory for generating publication-quality figures.
