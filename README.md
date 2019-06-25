@@ -157,8 +157,6 @@ For any further questions or comments, please email at ahmedaq@gmail.com.
 
 ## References
 
-Louie, R. H. Y. et al. (2018) ‘Fitness landscape of the human immunodeficiency virus envelope protein that is targeted by antibodies’, Proceedings of the National Academy of Sciences, 115(4), pp. E564–E573. doi: 10.1073/pnas.1717765115.
-
 1. [Louie, R. H. Y. et al. (2018) Fitness landscape of the human immunodeficiency virus envelope protein that is targeted by antibodies. <i>Proceedings of the National Academy of Sciences</i>, <b>115</b>(4): E564–E573. doi: 10.1073/pnas.1717765115](https://dx.doi.org/10.1073/pnas.1717765115).
 
 <!-- 2. [Barton, J. P., De Leonardis, E., Coucke, A. and Cocco, S. (2016). ACE: adaptive cluster expansion for maximum entropy graphical model inference. <i>Bioinformatics</i>, <b>32</b>(20): 3089-3097. DOI: 10.1093/bioinformatics/btw328](https://dx.doi.org/10.1093/bioinformatics/btw328). -->
