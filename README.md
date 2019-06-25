@@ -5,7 +5,7 @@
 *  [Details](#details)
 *  [Requirements](#requirements)
 *  [Installation](#installation)
-*  [Usage](#usage)
+*  [Running the application](#running-the-application)
 *  [Troubleshooting](#troubleshooting)
 <!-- *  [Acknowledgement](#acknowledgement) -->
 
@@ -83,7 +83,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
   
 </details>
 
-## Usage
+## Running the application
 
 1.	To infer maximum entropy model parameters using MPF-BML, you need to simply provide 
       * Input data in FASTA/Excel format comprising either multiple sequence alignment of the protein or a categorical data (with rows and columns representing samples and variables, respectively) [mandatory input]; 
