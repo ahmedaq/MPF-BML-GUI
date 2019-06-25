@@ -110,10 +110,10 @@ After providing input data and setting the parameters, the user can run the meth
 
 ### Inferred model verification
 The inferred models (MPF-only and MPF-BML) are validated by comparing the following statistical quantities of configurations in the data with those obtained from the inferred model
-1. the individual frequencies (pi), 
-2. the pair-wise frequencies (pij), 
-3. the connected correlations (pij - pipj), and
-4. the probability P(k) of observing a configuration with k differences with the consensus con-figuration.
+1. the individual frequencies (*p*<sub>i</sub>), 
+2. the pair-wise frequencies (*p*<sub>ij</sub>), 
+3. the connected correlations (*p*<sub>ij</sub> - *p*<sub>i</sub> *p*<sub>j</sub>), and
+4. the probability P(k) of observing a configuration with k differences with the consensus configuration.
 
 ### Saved output data
 
