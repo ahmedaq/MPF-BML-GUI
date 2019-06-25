@@ -96,13 +96,25 @@ A PC with either macOS, Microsoft Windows, or Linux.
       * Input file in Excel format for providing different weights to samples in order to reduce any sampling bias (each sample is given the same weight if no data is provided) [optional input];
       * Input file comprising maximum entropy model parameters for initializing the method (see Supplementary Text S1) [optional input].
 
-2.	For testing purposes, you can use the data provided in the Datasets folder in this repository. For demonstration purposes, we will use the data of HIV p7 nucleocapsid protein "p7-alignment.fasta".
+2.	For testing purposes, you can use the data provided in the "Datasets" folder in this repository. For demonstration purposes, we will focus on the data of HIV p7 nucleocapsid protein "p7-alignment.fasta" present in the "Datasets" folder.
 
-    **IMPORTANT**: The data to be analyzed must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/. 
+    **IMPORTANT**: The data to be analyzed (e.g. the file "p7-alignment.fasta" in this example) must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/applications/. 
 
 ### Setting the parameters
+In the "Parameters" panel of MPF-BML GUI, the user can set values of the different parameters involved in the three steps of the MPF-BML method (see (Louie et al., 2018) and Supplementary Text S2 for details of these parameters). A brief description of all parameters is also provided as tooltip to assist the user. The default values of these parameters, which were found to return a reasonable model for the majority of the test data, are already set. 
+
+For our example dataset of HIV p7, we will only change the value of the BML parameter "Max eps" from 1.0 (default) to 1.5. This change enables the user to obtain a reasonable maximum entropy model in 10-20 minutes (for a standard computer with 2 cores).
+
 ### Running the MPF-BML method
+After providing input data and setting the parameters, the user can run the method by clicking on the “Run MPF-BML” button in the MPF-BML GUI. A “Stop” button is also provided to the user to stop execution in case the algorithm is not converging. Progress of the execution process is displayed in the “Processing information” panel of MPF-BML GUI. 
+
 ### Inferred model verification
+The inferred models (MPF-only and MPF-BML) are validated by comparing the following statistical quantities of configurations in the data with those obtained from the inferred model
+1. the individual frequencies (pi), 
+2. the pair-wise frequencies (pij), 
+3. the connected correlations (pij - pipj), and
+4. the probability P(k) of observing a configuration with k differences with the consensus con-figuration.
+
 ### Saved output data
 
 3.	The inferred maximum entropy parameters using MPF and  MPF-BML are saved in Excel format (see Supplementary Table 2), and the MCMC samples generated based on the inferred MPF-BML model (used in model verification) are also saved in a separate Excel file.
