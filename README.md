@@ -85,10 +85,17 @@ A PC with either macOS, Microsoft Windows, or Linux.
 ## Running the application
 
 ### Input data
-To infer maximum entropy model parameters using MPF-BML, you need to simply provide 
-* Input data in FASTA/Excel format comprising either multiple sequence alignment of the protein or a categorical data (with rows and columns representing samples and variables, respectively) [mandatory input]; 
-* Input file in Excel format for providing different weights to samples in order to reduce any sampling bias (each sample is given the same weight if no data is provided) [optional input];
-* Input file comprising maximum entropy model parameters for initializing the method (see Supplementary Text S1) [optional input].
+To infer maximum entropy model parameters using MPF-BML, you need to simply provide input data in FASTA/xlsx/csv format comprising either multiple sequence alignment of the protein or a categorical data (with rows and columns representing samples and variables, respectively). 
+
+Besides the mandatory input, optional inputs are: 
+* the maximum fraction of gaps above which the variable is removed (default value set to 0.5); 
+* an optional sub-sample number to train MPF (used if MPF is running slow); 
+* an optional input file in csv/xls format comprising of sample weights to reduce sampling bias (each sample is weighted according to a maximum fraction threshold of similar sequences as default); and 
+* an optional file comprising model parameters to initialize the method. 
+
+      For the third optional input above, reweighting is performed based on the provided threshold 0 < *x* < 1 as follows (Morcos 2011): Two sequences with Hamming distance less than *xN* (where *N* is the length of protein) are considered to carry almost the same information, and vice versa. Thus, for each sequence *m*, a weight *w_m*  = *1/z_m* is calculated, where *z_m* are all the sequences in the MSA having a hamming distance less than *xN* with the sequence *m*. A threshold value of 0.1 is used as default if the user does not provide any weight file. 
+
+      For the last optional input, the user can provide an optional input maximum entropy model to initialize the MPF-BML method. This model may be obtained from some other inference method or from a previous run of the MPF method (the model obtained after running MPF is automatically saved once the MPF method converges) for which the user is interested in running either BML method alone or both MPF (again) and BML methods with a different set of parameters. For the latter, the user needs to check the provided “Run only BML step on user-provided parameters” option in the “Input information” panel.
 
 Different datasets are provided in the "Datasets" folder in this repository for testing the MPF-BML GUI framework. For demonstration purposes, we will focus here on the data of HIV p7 nucleocapsid protein "p7-alignment.fasta" present in this folder. Click the "Load data" button and select this dataset and leave the remaining optional inputs blank as shown below.
 
