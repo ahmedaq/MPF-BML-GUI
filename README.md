@@ -20,7 +20,7 @@ MPF-BML-GUI is a standalone cross-platform package which features an easy-to-use
 
 ![alt text][MPFBMLGUI]
 
-[MPFBMLGUI]: https://github.com/ahmedaq/MPF-BML-GUI/blob/master/E2_fig_3.png "MPF_BML_GUI"
+[MPFBMLGUI]: https://github.com/ahmedaq/MPF-BML-GUI/blob/master/E2_fig_4.png "MPF_BML_GUI"
 
 ## Details
 #### Title of paper
