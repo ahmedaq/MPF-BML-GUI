@@ -128,6 +128,8 @@ In the "Model verification" panel of MPF-BML GUI, the inferred models (MPF-only 
 
 <img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Model_ver_panel_2.png" width="600">
 
+Note that additional information is displayed the when the user clicks any data point in these plots. For example, in the plot comparing individual frequencies of model and MSA, clicking any data point shows the information of the associated configuration as *Xi*, where *X* is the specific configuration at column *i* of the input data . Similarly, in the plot comparing pair-wise frequencies of model and MSA, the information of the involved pair associated with the data point is displayed as (*Xi,Yj*), where *X* and *Y* are the configurations at columns *i* and *j* of the input data.
+
 ### Computing model-based energies
 Once a model has been inferred, panel “Compute energies” appears for the user to calculate energies corresponding to new samples using the inferred model parameters. 
 
