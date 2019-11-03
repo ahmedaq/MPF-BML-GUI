@@ -125,12 +125,12 @@ In the "Model verification" panel of MPF-BML GUI, the inferred models (MPF-only 
 
 ### Saved output data
 
-* The inferred maximum entropy parameters using MPF and  MPF-BML are saved in a matrix form in xls format (shown below). The first row and column show the change of configuration at a position with A/1/B denoting a change from configuration A to configuration B at position 1. The diagonal entries of the matrix represent the inferred fields while the non-diagonal entries represent the inferred couplings. 
+* The inferred maximum entropy parameters using MPF and  MPF-BML are saved in a matrix form in tab-delimited text format (shown below). The first row and column show the change of configuration at a position with A/1/B denoting a change from configuration A to configuration B at position 1. The diagonal entries of the matrix represent the inferred fields while the non-diagonal entries represent the inferred couplings. 
 
 <img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Output_parameters.png">
 
-* The MCMC samples generated based on the inferred MPF-BML model (used in model verification) are also saved in a separate csv and xls file.
-    
+* A tab-delimited text file is also provided as an output with pairs of positions arranged in descending order according to their computed Frobenius norm, a metric representative of the pairs in contact. This metric is calculated using the inferred couplings (Cocco et al., 2018) and the higher the value of this metric, the higher is the chance of this pair to be in contact, and vice versa.
+
 * Vector graphics (eps format) of all model-verification results are also saved in the same directory for generating publication-quality figures.
 
 <!-- 
@@ -152,4 +152,5 @@ For any further questions or comments, please email at ahmedaq@gmail.com.
 
 1. [Louie, R. H. Y. et al. (2018) Fitness landscape of the human immunodeficiency virus envelope protein that is targeted by antibodies. <i>Proceedings of the National Academy of Sciences</i>, <b>115</b>(4): E564–E573. doi: 10.1073/pnas.1717765115](https://dx.doi.org/10.1073/pnas.1717765115).
 
+2. [Cocco,S. et al. (2018) Inverse statistical physics of protein sequences: a key issues review. <i>Reports Prog. Phys.<\i>, <b>81<\b>, 032601. doi: 10.1088/1361-6633/aa9965] (http://dx.doi.org/10.1088/1361-6633/aa9965).
 <!-- 2. [Barton, J. P., De Leonardis, E., Coucke, A. and Cocco, S. (2016). ACE: adaptive cluster expansion for maximum entropy graphical model inference. <i>Bioinformatics</i>, <b>32</b>(20): 3089-3097. DOI: 10.1093/bioinformatics/btw328](https://dx.doi.org/10.1093/bioinformatics/btw328). -->
