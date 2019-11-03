@@ -94,14 +94,14 @@ Different datasets are provided in the "Datasets" folder in this repository for 
 
 **IMPORTANT**: The data to be analyzed (e.g. the file "p7-alignment.fasta" in this example) must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/application/. 
 
-<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Input_panel.png" width="300">
+<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Input_panel_2.png" width="300">
 
 ### Setting the parameters
 In the "Parameters" panel of MPF-BML GUI, the user can set values of the different parameters involved in the three steps of the MPF-BML method (see (Louie et al., 2018) and Supplementary Text S2 for details of these parameters). A brief description of all parameters is also provided as tooltip to assist the user. The default values of these parameters, which were found to return a reasonable model for the majority of the test data, are already set. 
 
 For the example dataset of HIV p7, we will only change the value of the BML parameter "Max eps" from 1.0 (default) to 1.5. This change enables the user to obtain a reasonable maximum entropy model in 10-20 minutes (on a standard computer with 1 processing core).
 
-<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Parameters_panel.png" width="300">
+<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Parameters_panel_2.png" width="300">
 
 ### Running the MPF-BML method
 After providing input data and setting the parameters, the user can run the method by clicking on the “Run MPF-BML” button in the MPF-BML GUI as shown below. A “Stop” button is also provided to the user to stop execution in case the algorithm is not converging.
@@ -110,7 +110,7 @@ After providing input data and setting the parameters, the user can run the meth
 
 Progress of the execution process is displayed in the “Processing information” panel of MPF-BML GUI as shown below. 
 
-<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Processing_panel.png" width="400">
+<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Processing_panel_2.png" width="400">
 
 For the example dataset of HIV p7, the MPF-BML model would take around 10-20 minutes (on a standard computer with 1 processing core).
 
@@ -121,7 +121,7 @@ In the "Model verification" panel of MPF-BML GUI, the inferred models (MPF-only 
 * the connected correlations (*p*<sub>ij</sub> - *p*<sub>i</sub>*p*<sub>j</sub>), and
 * the probability *P*(k) of observing a configuration with k differences with the consensus configuration.
 
-<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Model_ver_panel.png" width="600">
+<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Model_ver_panel_2.png" width="600">
 
 ### Saved output data
 
