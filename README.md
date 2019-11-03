@@ -99,8 +99,6 @@ Besides the mandatory input, optional inputs are:
 
 Different datasets are provided in the "Datasets" folder in this repository for testing the MPF-BML GUI framework. For demonstration purposes, we will focus here on the data of HIV p7 nucleocapsid protein "p7-alignment.fasta" present in this folder. Click the "Load data" button and select this dataset and leave the remaining optional inputs blank as shown below.
 
-**IMPORTANT**: The data to be analyzed (e.g. the file "p7-alignment.fasta" in this example) must be in the same directory where application is installed, e.g., /Documents/MPF-BML-GUI/application/. 
-
 <img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Input_panel_2.png" width="300">
 
 ### Setting the parameters
@@ -136,7 +134,9 @@ In the "Model verification" panel of MPF-BML GUI, the inferred models (MPF-only 
 
 <img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Output_parameters.png">
 
-* A tab-delimited text file is also provided as an output with pairs of positions arranged in descending order according to their computed Frobenius norm, a metric representative of the pairs in contact. This metric is calculated using the inferred couplings (Cocco et al., 2018) and the higher the value of this metric, the higher is the chance of this pair to be in contact, and vice versa.
+* A tab-delimited text file is also provided as an output with pairs of positions arranged in descending order according to their computed Frobenius norm, a metric representative of the pairs in contact (shown below). This metric is calculated using the inferred couplings (Cocco et al., 2018) and the higher the value of this metric, the higher is the chance of this pair to be in contact, and vice versa.
+
+<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/contacts_output.png">
 
 * Vector graphics (eps format) of all model-verification results are also saved in the same directory for generating publication-quality figures.
 
