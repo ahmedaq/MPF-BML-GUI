@@ -134,6 +134,7 @@ Once a model has been inferred, panel “Compute energies” appears for the use
 <img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/compute_energies.png" width="300">
 
 ### Saved output data
+The output files of the software are placed in a new subfolder within the folder where data is located. This new subfolder is named according to the data file, e.g., if data file is abc.fasta, the new subfolder is named as “abc_x_output”, where x is a random number to avoid overwriting the subfolder in case the user wants to run the software multiple times for the same data. The software saves the following files in the output folder:
 
 * The inferred maximum entropy parameters using MPF and  MPF-BML are saved in a matrix form in tab-delimited text format (shown below). The first row and column show the change of configuration at a position with A/1/B denoting a change from configuration A to configuration B at position 1. The diagonal entries of the matrix represent the inferred fields while the non-diagonal entries represent the inferred couplings. 
 
