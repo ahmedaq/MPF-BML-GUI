@@ -136,7 +136,7 @@ In the "Model verification" panel of MPF-BML GUI, the inferred models (MPF-only 
 
 * A tab-delimited text file is also provided as an output with pairs of positions arranged in descending order according to their computed Frobenius norm, a metric representative of the pairs in contact (shown below). This metric is calculated using the inferred couplings (Cocco et al., 2018) and the higher the value of this metric, the higher is the chance of this pair to be in contact, and vice versa.
 
-<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/contacts_output.png">
+<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/contacts_output.png" width="300">
 
 * Vector graphics (eps format) of all model-verification results are also saved in the same directory for generating publication-quality figures.
 
