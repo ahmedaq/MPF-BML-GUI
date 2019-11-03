@@ -37,16 +37,11 @@ A PC with either macOS, Microsoft Windows, or Linux.
     <b> macOS </b>
   </summary> 
   
-1.	Download the installer "MPF_BML_mcr.zip" from http://bit.ly/MPF_BML_v1_macOS (size: ~1.5 GB) and install the application by following the guidelines in the setup window as follows:
-    * Make sure to install MPF-BML-GUI in any folder other than the “Applications” folder (e.g., you can create a new folder on your Desktop or in Documents folder). In this tutorial, we assume that you made a folder “MPF-BML-GUI” in your “Documents folder”. 
-    * Do not change the default installation folder ("Applications") of MATLAB runtime libraries.
-    * This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 2 – 3 minutes on a standard computer.
+1.	Download the installer from the "macOS" directory in this repository, unzip the files, and install the application by following the guidelines in the setup window.
 
-2.	Open terminal and go to /Documents/MPF-BML-GUI/application/ directory and type the following command:
-    ```
-    ./run_MPF_BML.sh /Applications/MATLAB/MATLAB_Runtime/v93/
-    ```
-      This will open the GUI of the MPF-BML-GUI software.
+2. This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 10 – 15 minutes on a standard computer.
+
+3.	Open /Applications/MPF-BML-GUI/application/ directory and double click the installed application "MPF_BML". This will open the GUI of the MPF-BML-GUI software.
 
 </details>
 
@@ -55,12 +50,11 @@ A PC with either macOS, Microsoft Windows, or Linux.
     <b> Windows </b>
   </summary>
   
-1.	Download the installer "MPF_BML_mcr" from http://bit.ly/MPF_BML_v1_Win (size: ~1 GB) and install the application by following the guidelines in the setup window as follows:
-      * Make sure to install RocaNet in any folder other than the “Program Files” folder (e.g., you can create a new folder on your Desktop or in Documents folder). In this tutorial, we assume that you made a folder “MPF_BML_GUI” in your “Documents folder”.
-      * Do not change the default installation folder (“Program Files”) of MATLAB runtime libraries. 
-      * This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 2 – 3 minutes on a standard computer.
+1.	Download the installer from the "Windows" directory in this repository, unzip the files, and install the application by following the guidelines in the setup window.
 
-2.	Run the installed app by double clicking “MPF_BML_mcr.exe” located in your newly created folder (e.g.,\Documents\MPF_BML_GUI\application\). This will open the GUI of the MPF-BML-GUI software. 
+2. This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 10 – 15 minutes on a standard computer.
+
+3.	Open \Program Files\MPF-BML-GUI\application\ directory and double click the installed application "MPF_BML". Or the the can double click the shortcut to the application, in case the user opted for it during the installation. This will open the GUI of the MPF-BML-GUI software.
     
     Note that antivirus programs, if installed, may block running the software. If this problem arises (noticed for example in the case of Avast and F-secure antivirus), add the program in trusted applications and then run it.
 </details>
@@ -71,13 +65,13 @@ A PC with either macOS, Microsoft Windows, or Linux.
   </summary>  
 
 1.	Install the MPF-BML-GUI application as follows:
-      * Download the installer "MPF_BML.install" from this repository to a directory on your computer. Here onwards, we assume that you download it in the "Documents" folder.
-      * Go to the "Documents" folder, double click on the installer file “MPF_BML.install”, and follow the guidelines in the setup window. 
+      * Download the installer from the "Linux OS" directory in this repository, unzip the files, and install the application by following the guidelines in the setup window. 
+      
       Note: In case the installer doesn't start, open terminal and go to the "Documents" folder and type the following command: 
       ```
       chmod +x MPF_BML.install
       ```
-      * Please make sure to install MPF-BML-GUI in any folder other than the system folders (e.g., you can create a new folder on your Desktop or in Documents folder). In fact, installer will give an error if you try to install in the system folders. In this tutorial, we assume that you made a folder “MPF-BML-GUI” in your “Documents" folder. Install MATLAB Runtime in the same parent directory.
+      * The installer will try to install the software in the /usr/ directory. If this directory in inaccessible, the user can choose any other directory to install the software. In this tutorial, we assume that you made a folder “MPF-BML-GUI” in your “Documents" folder. Install MATLAB Runtime in the same parent directory.
       * This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 10 – 15 minutes on a standard computer.
 
 2.	To run the application, open terminal and go to the directory /Documents/MPF-BML-GUI/application/ and type the following command: 
