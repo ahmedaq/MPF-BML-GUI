@@ -140,15 +140,15 @@ The output files of the software are placed in a new subfolder within the folder
 
 * The inferred maximum entropy parameters using MPF and  MPF-BML are saved in a matrix form in tab-delimited text format (shown below). The first row and column show the change of configuration at a position with A/1/B denoting a change from configuration A to configuration B at position 1. The diagonal entries of the matrix represent the inferred fields while the non-diagonal entries represent the inferred couplings. 
 
-<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Output_parameters.png">
+   <img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/Output_parameters.png">
 
 * A tab-delimited text file is also provided as an output with pairs of positions arranged in descending order according to their computed Frobenius norm, a metric representative of the pairs in contact (shown below). This metric is calculated using the inferred couplings (Cocco et al., 2018) and the higher the value of this metric, the higher is the chance of this pair to be in contact, and vice versa.
 
-<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/contacts_output.png" width="300">
+   <img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/contacts_output.png" width="300">
 
 * In case the user provides a data file to compute energies based on model parameters, the computed energies along with the corresponding samples are saved as a tab delimited output file.
 
-<img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/compute_energies_output.png" width="600">
+   <img src="https://github.com/ahmedaq/MPF-BML-GUI/blob/master/compute_energies_output.png" width="600">
 
 * Vector graphics (eps format) of all model-verification results are also saved in the same directory for generating publication-quality figures.
 
