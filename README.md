@@ -170,7 +170,9 @@ For any questions or comments, please email at ahmedaq@gmail.com.
 
 ## References
 
-1. [Louie, R. H. Y. et al. (2018) Fitness landscape of the human immunodeficiency virus envelope protein that is targeted by antibodies. <i>Proceedings of the National Academy of Sciences</i>, <b>115</b>(4): E564–E573. doi: 10.1073/pnas.1717765115](https://dx.doi.org/10.1073/pnas.1717765115).
+1. [Morcos,F. et al. (2011) Direct-coupling analysis of residue coevolution captures native contacts across many protein families. <i>Proceedings of the National Academy of Sciences</i>, <b>108</b>(49): E1293–E1301. doi: 10.1073/pnas.1111471108](https://dx.doi.org/10.1073/pnas.1111471108).
 
-2. [Cocco,S. et al. (2018) Inverse statistical physics of protein sequences: a key issues review. <i>Reports Prog. Phys.</i>, <b>81</b>, 032601. doi: 10.1088/1361-6633/aa9965](http://dx.doi.org/10.1088/1361-6633/aa9965).
+2. [Louie, R. H. Y. et al. (2018) Fitness landscape of the human immunodeficiency virus envelope protein that is targeted by antibodies. <i>Proceedings of the National Academy of Sciences</i>, <b>115</b>(4): E564–E573. doi: 10.1073/pnas.1717765115](https://dx.doi.org/10.1073/pnas.1717765115).
+
+3. [Cocco,S. et al. (2018) Inverse statistical physics of protein sequences: a key issues review. <i>Reports Prog. Phys.</i>, <b>81</b>, 032601. doi: 10.1088/1361-6633/aa9965](http://dx.doi.org/10.1088/1361-6633/aa9965).
 <!-- 2. [Barton, J. P., De Leonardis, E., Coucke, A. and Cocco, S. (2016). ACE: adaptive cluster expansion for maximum entropy graphical model inference. <i>Bioinformatics</i>, <b>32</b>(20): 3089-3097. DOI: 10.1093/bioinformatics/btw328](https://dx.doi.org/10.1093/bioinformatics/btw328). -->
