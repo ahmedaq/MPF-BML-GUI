@@ -84,6 +84,8 @@ A PC with either macOS, Microsoft Windows, or Linux.
 
 ## Running the application
 
+Important note: The GUI panels may not appear properly if the resoulution of the user PC is low. Try maximizing the software window for proper display of panels or increase the resolution (if possible).
+
 ### Input data
 To infer maximum entropy model parameters using MPF-BML, you need to simply provide input data in FASTA/xlsx/csv format comprising either multiple sequence alignment of the protein or a categorical data (with rows and columns representing samples and variables, respectively). 
 
