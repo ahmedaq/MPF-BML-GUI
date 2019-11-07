@@ -37,7 +37,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
     <b> macOS </b>
   </summary> 
   
-1.	Download the installer from the "macOS" directory in this repository, unzip the files, and install the application by following the guidelines in the setup window.
+1.	Download the installer from the "macOS" directory in this repository and install the application by following the guidelines in the setup window.
 
 2. This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 10 – 15 minutes on a standard computer.
 
@@ -50,7 +50,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
     <b> Windows </b>
   </summary>
   
-1.	Download the installer from the "Windows" directory in this repository, unzip the files, and install the application by following the guidelines in the setup window.
+1.	Download the installer from the "Windows" directory in this repository and install the application by following the guidelines in the setup window.
 
 2. This will install MPF-BML-GUI as well as MATLAB runtime libraries (required to run the app). This procedure may take 10 – 15 minutes on a standard computer.
 
@@ -65,7 +65,7 @@ A PC with either macOS, Microsoft Windows, or Linux.
   </summary>  
 
 1.	Install the MPF-BML-GUI application as follows:
-      * Download the installer from the "Linux OS" directory in this repository, unzip the files, and install the application by following the guidelines in the setup window. 
+      * Download the installer from the "Linux OS" directory in this repository and install the application by following the guidelines in the setup window. 
       
       Note: In case the installer doesn't start, open terminal and go to the "Documents" folder and type the following command: 
       ```
