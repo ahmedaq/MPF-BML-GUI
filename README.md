@@ -13,7 +13,7 @@
    - [Saved output data](#saved-output-data)
 *  [Troubleshooting](#troubleshooting)
 *  [References](#references) 
-<!-- *  [Acknowledgement](#acknowledgement) -->
+*  [Citation](#citation)
 
 ## Overview
 MPF-BML-GUI is a standalone cross-platform package which features an easy-to-use GUI. The package only requires the input data (protein sequence data or data of multiple configura-tions of a complex system with large number of variables) and returns the maximum entropy model parameters inferred using the MPF-BML method. 
