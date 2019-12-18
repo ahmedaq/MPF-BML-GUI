@@ -178,3 +178,7 @@ For any questions or comments, please email at ahmedaq@gmail.com.
 
 3. [Cocco,S. et al. (2018) Inverse statistical physics of protein sequences: a key issues review. <i>Reports Prog. Phys.</i>, <b>81</b>, 032601. doi: 10.1088/1361-6633/aa9965](http://dx.doi.org/10.1088/1361-6633/aa9965).
 <!-- 2. [Barton, J. P., De Leonardis, E., Coucke, A. and Cocco, S. (2016). ACE: adaptive cluster expansion for maximum entropy graphical model inference. <i>Bioinformatics</i>, <b>32</b>(20): 3089-3097. DOI: 10.1093/bioinformatics/btw328](https://dx.doi.org/10.1093/bioinformatics/btw328). -->
+
+## Citation
+<!-- #### Plain text-->
+Ahmed A Quadeer, Matthew R McKay, John P Barton, Raymond H Y Louie, MPF–BML: a standalone GUI-based package for maximum entropy model inference, btz925, https://doi.org/10.1093/bioinformatics/btz925
